@@ -22,7 +22,7 @@ public class Main {
                     System.out.print("Lutfen yeni sifrenizi giriniz : ");
                     newPassword = input.next();
                     if (newPassword.equals(password)) {
-                        System.out.println("Sifre olusturlamadi, Lutfen baska sifre giriniz.");ad
+                        System.out.println("Sifre olusturlamadi, Lutfen baska sifre giriniz.");
                     } else {
                         password = newPassword;
                         System.out.println("Sifre olusturuldu");
